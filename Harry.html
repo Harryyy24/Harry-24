@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="potter.css" />
+    <link rel="stylesheet" href="dumbledoor.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Harish Thube</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <img src="https://th.bing.com/th/id/R.904055540608cbd60f6606508c40dc44?rik=WU8lQ5UyampNUQ&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f7%2fHalf-Moon-PNG-Picture.png&ehk=43J3kZv%2bD7lwGe4cyazVtBItaymrOvvEzCXRXhHnh9s%3d&risl=&pid=ImgRaw&r=0"
+                    alt="moon logo" id="day">
+            </ul>
+
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Harish Thube</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png"
+                alt="John Doe profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Harish Thube</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./asssets/Harish resumeee.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="https://www.seekpng.com/png/small/154-1546943_jpg-transparent-stock-linkedin-logo-svg-png-icon.png"
+                    alt="My LinkedIn profile" class="icon "
+                    onclick="location.href='https://www.linkedin.com/in/harish-thube-512a0b279/'" />
+                <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt="My Github profile"
+                    class="icon " onclick="location.href='https://github.com/Harryyy24/portfolio-web-project'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="https://i.pinimg.com/736x/57/38/a6/5738a6d2054580015f1dc76d55449f0b.jpg" alt="Profile picture"
+                    class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="https://vectorified.com/images/student-icon-png-16.png" alt="Experience icon"
+                            class="icon" />
+                        <h3>Experience</h3>
+                        <p>2+ years <br />Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="https://www.pngkey.com/png/full/27-270640_the-campus-plan-education-logo-png-hd.png"
+                            alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.TECH<br />INFORMATION TECHNOLOGY</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                        reprehenderit et laborum, rem, dolore eum quod voluptate
+                        exercitationem nobis, nihil esse debitis maxime facere minus sint
+                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                        Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+                        reiciendis ea magnam? Nulla, impedit fuga!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.WGv8b3_LmHMcQq2TVYYJOQHaD4&pid=Api&P=0&h=220" alt="Arrow icon"
+            class="icon arrow" onclick="location.href='#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>MongoDb</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://tse3.explicit.bing.net/th?id=OIP.45ogRiR236GRF1Y6KXckZAHaHa&pid=Api&P=0&h=220"
+                                alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.WGv8b3_LmHMcQq2TVYYJOQHaD4&pid=Api&P=0&h=220" alt="Arrow icon"
+            class="icon arrow" onclick="location.href='#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://th.bing.com/th/id/OIP.txsPSzbdJU_DwPMVi7OHbwAAAA?rs=1&pid=ImgDetMain"
+                            alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Harryyy24/portfolio-web-project'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Harryyy24/portfolio-web-project'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://th.bing.com/th/id/OIP.jD1g8LAkUTue6pLIbRtCNwHaGD?rs=1&pid=ImgDetMain"
+                            alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Harryyy24/portfolio-web-project'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Harryyy24/portfolio-web-project'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://wallpapercave.com/wp/yLReU9u.jpg" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Harryyy24/portfolio-web-project'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Harryyy24/portfolio-web-project'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="https://tse1.mm.bing.net/th?id=OIP.WGv8b3_LmHMcQq2TVYYJOQHaD4&pid=Api&P=0&h=220" alt="Arrow icon"
+            class="icon arrow" onclick="location.href='#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="https://static.vecteezy.com/system/resources/previews/002/293/604/large_2x/mail-icon-with-long-shadow-black-on-white-background-simple-design-style-illustration-free-vector.jpg"
+                    alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://www.seekpng.com/png/small/154-1546943_jpg-transparent-stock-linkedin-logo-svg-png-icon.png"
+                    alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/harish-thube-512a0b279/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
